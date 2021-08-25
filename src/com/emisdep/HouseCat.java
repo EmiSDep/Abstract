@@ -1,0 +1,11 @@
+package com.emisdep;
+
+public class HouseCat extends Cat{
+    public HouseCat(String name, String color, int weightInGrams, boolean isNeutered, String species) {
+        super(name, color, weightInGrams, isNeutered, species);
+    }
+
+    public void meow() {
+        System.out.println("Arf");
+    }
+}
